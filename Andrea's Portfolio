@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-      <!--Root HTML tag -->
+      <!--Root HTML - Start   -->
 <html lang="en-US">
   <!--  Head - Start  -->
 <head>
@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!--  Title -->
   <title>My Portfolio</title>
-      <!--  CSS Stylesheet  -->
-  <link href="Portfoliostyle.css" type="text/css" rel="stylesheet">
+      <!--  CSS Stylesheet
+  <link href="" type="text/css" rel="stylesheet">     -->
   <!--  Head - End  -->
 </head>
   <!-- Body - Start -->
@@ -17,13 +17,13 @@
     <!--  Header - Start  -->
   <header>
     <!--  Big Header  -->
-  <h1>Welcome to my Portfolio</h1>
+  <h1>Welcome to My Portfolio</h1>
     <!--  NavBar - Start  -->
   <nav>
     <ul>
       <!--  NavBar List -->
-      <li><a href="">Blog</a></li>
-      <li><a href="#"><b><i>Portfolio</i></b></a></li>
+      <li><a>Blogs</a></li>
+      <li><a><b><i>Portfolio</i></b></a></li>
       <li><a>About Me</a></li>
       <li><a>Resources</a></li>
       <li><a>Contact</a></li>
@@ -91,7 +91,7 @@ transferable and are in appropriate categories.</p>
       <!--  Row 1 - Start -->
     <tr>
         <!--  Learning Skillset [td1] -->
-      <td class="">Learning:<br>
+      <td>*Learning:<br>
         <ul>
           <li>Adaptive</li>
           <li>Quick-Study</li>
@@ -101,7 +101,7 @@ transferable and are in appropriate categories.</p>
         </ul>
       </td>
         <!--  Communication Skillset [td2] -->
-      <td>Communication:<br>
+      <td>*Communication:<br>
         <ul>
           <li>Active Listener</li>
           <li>Respectful</li>
@@ -110,7 +110,7 @@ transferable and are in appropriate categories.</p>
         </ul>
       </td>
       <!--  Programming Knowledge Skillset [td3] -->
-      <td>Programming Knowledge:
+      <td>*Programming Knowledge:
         <ul>
             <!--  HTML5 Knowledge -->
           <li>Basic HTML5 webpage setup</li>
@@ -125,12 +125,12 @@ transferable and are in appropriate categories.</p>
       <!-- Row 2 - Start  -->
     <tr>
         <!--  Computer Knowledge Skillset [td1] -->
-      <td>Computer Knowledge:<br>
+      <td>*Computer Knowledge:<br>
         <ul>
           <li>Spreadsheets</li>
           <li>Notepads</li>
+          <li>Fast-Typer</li>
           <li>Windows</li>
-          <li>fast-typer</li>
           <li>Basic File Management</li>
           <li><b>Microsoft Office</b>:<br>
             <ul>
@@ -141,7 +141,7 @@ transferable and are in appropriate categories.</p>
         </ul>
       </td>
       <!--  Problem Solving, Anyalasis & Logistics Skillset [td2]  -->
-    <td>Problem Solving, Anyalasis & Logistics:<br>
+    <td>*Problem Solving, Anyalasis & Logistics:<br>
       <ul>
         <li>High attention to details</li>
         <li>Adequate researcher</li>
@@ -152,7 +152,7 @@ transferable and are in appropriate categories.</p>
       </ul>
     </td>
     <!--  Customer Service Skillset [td3] -->
-    <td>Customer Service:<br>
+    <td>*Customer Service:<br>
       <ul>
         <li>Helpful</li>
         <li>Attentive</li>
@@ -197,7 +197,21 @@ transferable and are in appropriate categories.</p>
 <!--    .....WORK IN PROGRESS....   -->
   <h2>WOOP!</h2>
   <h2>Another Table Example</h2>
-  <h3>B</h3>
+  <table>
+
+  </table>
+  <h3></h3>
   <p>puppies&kittens</p>
+
+      <!--  Footer      -->
+<footer>
+      
+      <!--  Bottom NavBar     -->
+  <nav>
+
+  </nav>
+</footer>
+  <!--  Body - End  -->
 </body>
+  <!--  HTML Root - End   -->
 </html>
