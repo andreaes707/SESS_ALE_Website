@@ -3,14 +3,18 @@
 <head>
     <!-- Meta Tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <meta name="Developer" content="ALE ~ Andrea L. Estrada">
   <meta name="description" content="ALE ~ About_Me Home - The traits and skills that make me unique and empower my abilities. My thoughts about Inspiration, Integrity, Imagination, Curiosity, Learning and negative judgement.[#ALE~About_Me]">
   <!-- Title -->
   <title>Page 1 -about me ~ ALE</title>
-  <!--  Styles  -->
+  <!--  Styles
   <style media="screen">
-
+    #W {
+      background-repeat: no-repeat;
+      background-image: url(file:///C:\Users\My PC\Documents\Balanced\sunset.jpg);
+      height: 100%;
+    }
     .uL {
       text-decoration: underline;
     }
@@ -18,45 +22,228 @@
       background-color: #a3ff34!important;
     }
   </style>
-    <!-- Bootstrap - Links Scripts -->
-    <link rel="stylesheet" href="bootstrap2.css">
+  <script type="text/javascript">
+  nav.addEventListener("click", turnLight());
+  function turnLight() {
+
+}
+</script>
+<link rel="stylesheet" href="bootstrap2.css">
+-->
+    <!-- Bootstrap Links and Scripts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      nav.addEventListener("click", turnLight());
-      function turnLight() {
-
-      }
-    </script>
   </head>
 <body>
-  <!--  Navigation -->
-  <nav class="nav nav-pills bg-dark navbar-expand-lg navbar-primary">
-    <ul class="nav nav-pills bg-dark navbar-primary">
-    <a class="navbar-brand nav-link navbar-dark " href="#">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Defend Nature</a></li>
+<!-- Previous Path Links
+<a class="dropdown-item" href="file:///C:\Users\Cheetah\Documents\Atom\HTML_CSS_JS\Blogs\Blog Side\A-M\AboutMeIndex.html" active>1</a>
+<a class="dropdown-item" href="file:///C:\Users\Cheetah\Documents\Atom\HTML_CSS_JS\Blogs\Blog Side\A-M\AboutMe2.html">2</a>
+<button class="btn text-light btn-outline-success" type="button" onclick="turnDark()" name="Dark">Dark</button>
+<button class="btn text-light btn-outline-success" type="button" onclick="turnLight()" name="Light">Light</button>
+-->
 
-      <li class="nav-item bg-dark text-info dropdown">
 
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About Me</a>
-        <div class="dropdown-menu">
-         <a href="#ToC" class="dropdown-item">Index -<abbr title="Table of Contents">TOC</abbr></a>
-         <a href="#" class="dropdown-divider">Page # </a>
-         <a class="dropdown-item" href="file:///C:\Users\Cheetah\Documents\Atom\HTML_CSS_JS\Blogs\Blog Side\A-M\AboutMeIndex.html" active>1</a>
-         <a class="dropdown-item" href="file:///C:\Users\Cheetah\Documents\Atom\HTML_CSS_JS\Blogs\Blog Side\A-M\AboutMe2.html">2</a>
-         <a class="dropdown-item" href="#" disabled>3</a>
-       </div>
-       </li>
-       <li class="nav-item"><a class="nav-link" href="#">Stories</a></li>
+<!-- -  Navigation -->
+<nav class="nav nav-tabs nav-justified justify-content-around bg-dark navbar-dark">
+<h1 class="text-success" title="SimplyEfficientServices">SES</h1>
+<!-- Toggler / Collapse Buttons -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" name="button">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<!--
+-->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavtabs">
+   <span class="fa fa-ellipsis-v"></span>
+</button>
+<button type="button" data-toggle="collapse" data-target="#Help" name="button">
+  <span class="far fa-question-circle"></span>
+</button>
+<!-- Button for Row 1 Column 2 - Table of Contents -->
+<button type="button" data-toggle="collapse" data-target="#ToC" name="button">
+  <span class="fas fa-cubes"></span>
+</button>
+<div class="collapse text-light" id="Help">
+  <p>Click <span class="navbar-toggler-icon"></span> to view Nav Tabs; <br>
+  Click <span class="fa fa-ellipsis-v"></span> to expand tab info. <br> Click
+  <span class="fas fa-cubes"></span> to view Table of Contents.<p>
+    <p>Click again to close.</p>
+</div>
 
-       <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
-    </ul>
-    <button class="btn text-light btn-outline-success" type="button" onclick="turnDark()" name="Dark">Dark</button>
-    <button class="btn text-light btn-outline-success" type="button" onclick="turnLight()" name="Light">Light</button>
-  </nav>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <!--   Nav List - Tabs   -->
+<ul class="nav bg-dark m-0 p-2">
+  <!-- - #1  -->
+  <li class="nav-item"><a class="nav-link active" data-toggle="tab" title="See More Below! Click ? for help" href="#Greet">HOME  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #2  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#BlogsIndex">Blogs  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #3  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#Quotes">Quotes  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #4  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#Stories">Stories  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #5  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#TC">Topics and Categories  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #6  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#SocialD">Social Discussion  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #7  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#Resources">Resources  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #8  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#Services">Services & Contact Info  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #9  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#AM">About Me  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+  <!-- - #10  -->
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Below! Click ? for help" href="#DefendNature">Defend Nature  <i class="far fa-arrow-alt-circle-down"></i></a></li>
+ </ul>
+</div>
+
+ <!--    Navbar links Below   -->
+
+ <div class="collapse navbar-collapse" id="collapsibleNavtabs">
+<!-- Nav-Content - Tab Panes  -->
+<div class="tab-content bg-dark text-monospace text-white text-center">
+ <!-- - #1  -->
+ <div class="tab-pane container active text-uppercase" id="Greet">
+   <div class="row">
+   <h2 class="col-sm text-uppercase" title="My Homepage">Greetings:</h2>
+   <p class="col-sm">Vist the
+     <a class="text-uppercase" href="Greetings.html" target="_blank">homepage</a>
+   for more!</p>
+  </div>
+ </div>
+ <!-- - #2  -->
+ <div class="tab-pane container fade" id="BlogsIndex">
+   <div class="row">
+
+   <h2 class="col-sm" title="Blogs page">All Blogs:</h2>
+   <p class="col-sm">Visit
+    <a class="" href="BlogsIndex.html" target="_blank">Blog</a> homepage here;</p>
+   <p class="col-sm"><small>View all blogs here.</small></p>
+  </div>
+ </div>
+ <!-- - #3  -->
+ <div class="tab-pane container fade" id="Quotes">
+   <div class="row">
+
+   <h2 title="Quotes page">Quotes:</h2>
+   <p class="col-sm">Visit
+     <a class="" href="Quotes.html" target="_blank">Quotes</a> Page;</p>
+    <p class="col-sm">View quotes for every reason. Learn about
+     the intelligent people who have shared their wisdom.</p>
+   </div>
+ </div>
+ <!-- - #4  -->
+ <div class="tab-pane container fade" id="Stories">
+   <div class="row">
+
+   <h2 class="col-sm" title="Storytime page">Stories:</h2>
+   <p class="col-sm">Visit
+     <a href="Stories.html" target="_blank">Stories</a> Page;</p>
+    <p class="col-sm">Learn about stories, opinions, lessons, &amp; more.</p>
+   </div>
+ </div>
+ <!-- - #5  -->
+ <div class="tab-pane container fade" id="TC">
+   <div class="row">
+
+   <h2 class="col-sm" title="Explore Topics page">Topics & Categories:</h2>
+   <p class="col-sm">Visit
+     <a href="T&C.html" target="_blank">Topics and Categories</a> Page;</p>
+    <p class="col-sm">See full list of eveything to read and research;</p>
+   </div>
+ </div>
+ <!-- - #6  -->
+ <div class="tab-pane container fade" id="SocialD">
+   <div class="row">
+
+   <h2 class="col-md" title="Social Discussions page">Social Discussions:</h2>
+   <p class="col-sm">Visit
+       <a href="Social.html" target="_blank">Social</a> Page; </p>
+   <p class="col-sm">Discussion Fourms for everyone to share and learn.</p>
+   </div>
+   <p class="row"> View forums & discussions about everything from
+     passionate hobbies, to favorite events, and even
+     sharing experiences with disabilities and more.</p>
+ </div>
+ <!-- - #7  -->
+ <div class="tab-pane container fade" id="Resources">
+   <div class="row">
+
+   <h2 class="col-sm" title="Resources page">Resources:</h2>
+   <p class="col-sm">Visit
+     <a href="Resources.html" target="_blank">Resources</a> Page;</p>
+
+   <p class="col-sm"><small>View all resources, citations and other links.</small></p>
+ </div>
+ </div>
+ <!-- - #8  -->
+ <div class="tab-pane container fade" id="Services">
+   <div class="row">
+
+   <h2 class="col-sm" title="Services and Contact Page">Services & Contact:</h2>
+   <div class="col-sm">
+     <p class="">Visit
+       <a href="Services.html" target="_blank">Services and Contact</a> Page.
+     <!-- -  My Name and Email  -->
+     <small>Contact me via email for feedback and/or service info;</small> </p>
+     <p>Andrea Estrada - andreaes707@gmail.com</p>
+   </div>
+     <div class="col-md">
+   <h3 class="">House Cleaning</h3>
+   <ul class="list-group list-group-horizontal justify-content-center text-dark">
+     <li class="list-group-item">Surface Cleaning</li>
+     <li class="list-group-item">Disinfection</li>
+     <li class="list-group-item">Deep Cleaning</li>
+   </ul>
+     </div>
+   </div>
+ </div>
+ <!-- - #9  -->
+ <div class="tab-pane container fade" id="AM">
+   <div class="row">
+
+   <h2 class="col-sm" title="About me page">About Me:</h2>
+   <p class="col-sm">Learn more about me: my resourcefulness, beliefs and inspirations.</p>
+   <p class="col-sm"><small>View all pages about me and my daily activities</small></p>
+   <div class="col-sm text-center">
+
+     <h3 class="small lead">View Pages </h3>
+     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Visit Page #</a>
+  <div class="nav-item dropdown dropdown-menu">
+     <ul class="dropdown breadcrumb justify-content-center">
+       <li class="breadcrumb-item"><a href="AboutMeIndex.html" target="_blank">1</a></li>
+       <li class="breadcrumb-item"><a href="AboutMe2.html" target="_blank">2</a></li>
+       <li class="breadcrumb-item disabled"><a href="AboutMe3.html" target="_blank">3</a></li>
+       <li class="breadcrumb-item"><a href="PortfolioPg_ALE.html" target="_blank">Portfolio</a></li>
+     </ul>
+   </div>
+  </div>
+</div>
+
+</div>
+
+   <!-- - #10  -->
+ <div class="tab-pane container fade" id="DefendNature">
+   <div class="row">
+     <h2 title="Defend Nature Homepage">Defend Nature Template Page:</h2>
+
+     <section class="col-md">
+   <p class="">Visit
+     <a class="" href="DefendNatureHOME.html" target="_blank">DefendNature Home</a> Page;</p>
+   <p><small>
+       More templates coming soon!
+     </small></p>
+   </section>
+   <img class="col-sm" src="DF.jpg" alt="DF">
+ </div>
+ </div>
+</div>
+</div>
+
+<!--
+  Navigation - End -->
+</nav>
 <!--
 Row: ~INTRO
 in1 - div - column
@@ -90,253 +277,359 @@ InspirationPatience
   -Compassion
   -Patience
 -->
+<div id="IW" class="container-fluid text-wrap flex-wrap m-0 p-3 bg-info">
 
-
-  <h1 class="toast-header display-1">Welcome dear reader,</h1>
-  <!-- Row -->
-  <div id="INTRO" class="row container-fluid flex-wrap text-wrap text-center">
-    <!-- Column -->
+<!-- Row 1 First two headings -->
+ <div class="row container-fluid d-sm">
+   <!-- Column 1 -->
+   <section class="col-md">
+     <h1 class="text-dark text-sm-left">Welcome dear reader,</h1>
+     <h2 class="text-center text-capitalize">The Path Into the Future:</h2>
+   </section>
+   <!-- Column 2 -->
+   <section class="col-sm justify-content-end">
+     <ul class="collapse bg-white" id="ToC">
+       <li><a href="#INTRO">Intro</a></li>
+       <li><a href="#xI">cont..</a></li>
+       <li><a href="#I">Inspiration</a></li>
+       <li><a href="#II">Compassion and Honesty</a></li>
+       <li><a href="#III">Integrity</a></li>
+       <li><a href="#IV">Patience</a></li>
+       <li><a href="#V">Balance</a></li>
+     </ul>
+   </section>
+ </div>
+  <!-- Row #1 - flex-wrap text-wrap -->
+  <div  class="row container-fluid text-center flex-wrap" id="INTRO">
+    <!-- First Column -->
+  <section class="col-sm">
+    <h4>My name is</h4>
+    <h5>Andrea Estrada</h5>
+    <h6 class="text-right"> <span class="fas fa-feather-alt"> </span>
+    I welcome everyone to my site ~ </h6>
+      <p>Please refrain from disgraceful behavior &amp;
+        rude judgement as well.</p>
+      <p class="">Those things are unnecessary here.
+        I also hope everyone who comes here remains
+        open-minded &amp; positive with love and
+        enthusiasm for all.</p>
+      <p> (Just try it once,
+        that certainly couldn't hurt you.)</p>
+  </section>
+  <!-- Second Column -->
   <section class="col-md">
-    <pre>
-<p class="toast-body text-right">
-    My name is Andrea Estrada and I welcome everyone to
- my site - please refrain from disgraceful
- behavior &amp; rude judgement as well.
-
-  Those things are unneccesary here.
- I also hope everyone who comes here remains open-
- minded &amp; positive with love and
-    enthusiasm for all. (Just try it once,
- that certainly couldn't hurt you.)
-</p>
-</pre>
-</section>
-
-  <section class="col-md">
-<p class="toast-body text-left">I write blogs for multiple reasons.</p>
-<h6 class="text-capitalize">The Path Into the Future</h6>
-<ul>
-  <li>Bring everyone the knowledge &amp;/or resources they desire;</li>
-  <li>Thoroughly spread awareness about the voices who remain unheard &amp; unnoticed;</li>
-  <li>Expand my knowledge and experience so I can continue to <em>help<br>
-    others using guidance and wisdom</em> not just from or for myself</li>
-  <li>Eventually to obtain some money to support me, my <em>future<br> family</em>,
-    as well as my <em>current</em> and <em>future communities</em></li>
-  </ul>
-</section>
-</div>
-<div class="row container-fluid text-center text-wrap">
-<!-- Column -->
+    <h3>Seek to grow from experience & patience</h3>
+    <h4>Multiple Reasons to grow..</h4>
+      <h5 class="col text-left">I write blogs for multiple reasons....</h5>
+      <ul>
+        <li>Bring everyone the knowledge &amp;/or resources they desire;</li>
+        <li>Thoroughly spread awareness about the voices who remain unheard &amp; unnoticed;</li>
+        <li>Expand my knowledge and experience, so I can continue to <em>help
+          others using guidance and wisdom</em> not just from or for myself</li>
+          <li>Eventually to obtain some money to support me, my <em>future family</em>,
+            as well as my <em>current</em> and <em>future communities</em>.</li>
+      </ul>
+  </section>
+  </div>
+<!-- Row #2 - Quotes and purpose -->
+<div class="row container-fluid text-center text-wrap" id="xI">
+<!-- Column 1 -->
 <section class="col-sm">
   <p class="bg-success text-light">I know this page and many
-    blogs will have a lot of quotes but each quote has its
-    own unique purpose. A message to be spread; for anyone to hear; for
+    blogs will have a lot of quotes but each quote has a unique
+    purpose.
+    <br>
+     A message to be spread; for anyone to hear; for
     everyone to listen; & to those whom never wondered..</p>
 </section>
+  <!-- Column 2 -->
 <section class="col-sm">
-    <p class="text-right bg-info text-white">Before you continue reading I want you to know that I use the words <em>"we"</em>,
-      <em>"us"</em>, <em>"they/their"</em> &amp; <em>"our"</em> as referring to humans &amp; humanity as a
-      <em>general whole</em> <small>- frequently used throughout my website.</small></p>
+    <p class="text-right bg-info text-white">Before you continue
+      reading I want you to know that I use the words <em>"we"</em>,
+      <em>"us"</em>, <em>"they/their"</em> &amp; <em>"our"</em> as
+      referring to humans &amp; humanity as a <em>general whole</em>
+      <small>~ frequently used throughout my website.</small></p>
 </section>
 </div>
-<hr>
-<div class="row container-fluid text-center text-wrap">
-  <section id="Info" class="">
-      <aside class="text-center bg text-primary text-right">Believe it or not but being
+
+<!-- Row #3 - Compassionate everyday -->
+<div class="row container-fluid m-0 text-center text-wrap">
+  <!-- Column 1 -->
+  <section id="Info" class="col-lg text-center">
+        <p class="">
+        Believe it or not but being
         positive and compassionate as a whole every day can even
-        bring a great lifestyle to a <span class="uL">whole different level</span>.
-        No matter the <em>lifestyle</em> we have all just
-          <em>want to <strong>survive</strong></em> through the days, weeks,
-          months and years of our simplistic yet complicated lives.
+        bring a great lifestyle to a whole different level.
+      </p>
+      <hr class="bg-dark">
+      <p class="">
+        No matter the <em>life-style</em> we choose to live, we've got a <em>need
+          & want to <strong>survive</strong></em> through the days, weeks,
+          months and years;</p>
+          <p>All the times of our simplistic yet complicated lives.</p>
+  </section>
+</div>
+<!-- Row #4 -->
+<div class="row container-fluid justify-content-center lead">
 
-<hr>
-  <p><small class="mark lead">the search and quest for knowledge exists for a purpose and is
-      in no way intended to be negative journey</small></p>
-    </aside>
-</section>
-    </div>
+  <!-- Column 1 -->
+  <section class="col bg-dark text-light text-center">
+
+  <p>The search and quest of the Seeker for knowledge
+    exists for a purpose and is
+    in no way intended to be negative journey.</p>
+  </section>
+</div>
+</div>
+<!-- End Intro && Start Main Wrapper -->
     <!-- Main Div -->
-    <div class="container-fluid text-wrap flex-wrap">
-<!-- Row -->
-<div class=" container-fluid">
-  <!-- Column -->
-<div id="inspirationPatience" class="text-center text-monospace">
-
-
+<div class="container-fluid bg-secondary text-white text-wrap flex-wrap p-2 m-0" id="I">
+<!-- Row #5 -->
+<div class="row container-fluid text-center text-monospace">
+  <h2 class="text-uppercase text-left">Inspiration, Integrity &amp;
+    Imagination are everything!</h2>
+  <section id="Inspiration" class="col-md">
+ <!-- Column 1 -->
+  <h3 class="text-center"><strong>Inspiration Is Found Everywhere!!</strong></h3>
 <!-- Inspiration ~ Section -->
-<section id="Inspiration" class="">
 
-<h3 class="text-center"><strong>Inspiration Is
-  Found Everywhere!!</strong></h3>
+    <p class="text-uppercase">I am many things but most of all, I am a <em><strong>
+      lifelong-inspired</strong></em> student.</p>
+    <p class="p-1">I am overly compassionate &amp; I absolutely <strong>
+      <em>love</em></strong> knitting, crochet, yoga, reading, and animals.</p>
+  </section>
+ <!-- Column 2 -->
+  <!-- Compassion ~ Section -->
+  <section class="col-lg m-1 text-uppercase" id="Compassion">
+  <h3>Compassion beyond the stars!!</h3>
+      <p>There is so much more that I regularly do besides those few things
+      are described on a subsequent page titled:</p>
+      <p class="bg-dark p-2 lead text-white">
+        Curiosity and Learning, A Tried &amp; True Partnership.
+      </p>
+  </section>
+  <div class="container-fluid">
 
-<h3 class="text-uppercase text-left">Inspiration, Integrity &amp; Imagination are everything!</h3>
+    <hr class="bg-info">
+  </div>
+</div>
 
-<p class="text-uppercase">I am many things, but most of all I am a <em>lifelong
-   <strong>inspired</strong></em> student.</p>
- </section>
-
- <!-- Compassion ~ Section -->
- <section id="Compassion">
+<!-- Row #6 - Compassion & Honesty -->
+<div class="row container-fluid text-white" id="II">
 
 
- <p class="">I am overly compassionate &amp; I absolutely <strong>
-   <em>love</em></strong> knitting, crochet, yoga,<br> reading, and animals.<br>
-   There is so much more that I regularly do<br> besides those few things which
-   is described on the next page at:
-   <a href="file:///C:\Users\Cheetah\Documents\Atom\HTML_CSS_JS\Blogs\Blog Side\A-M\AboutMe2.html">
-     Curiosity and Learning, A Tried &amp; True Partnership.</a>
- </p>
+<section class="col-md">
+  <h3 class="text-uppercase">Honesty, respect and compassion</h3>
 
-
- <blockquote class="blockquote text-center bg-info text-dark">
-   <p><em>There is no <strong>good</strong> in this world without<br> the
-     real <strong>will</strong> to do good.</em></p>
- </blockquote>
-
- <hr>
-
- <p class="">I have chosen to live with compassion for all living things. As
-   well<br> as to live with a heart full of light, positivity and possibilities.</p>
+ <p class="">I have chosen to live with compassion for all living things. Additionally,
+   I have chosen to live with a heart filled with light, positivity and possibilities.</p>
  <p class="text-right">That does not mean that my life has only been full of
-   positivity. For<br> positivity and negativity have an unseen balance; An equal connection
-   of harmony between cause and effect.</p>
-   <p class="AuL text-center">Where one exists so does the other.</p>
- </section>
+   positivity.</p>
+   <hr class="bg-primary">
+ <p>For positivity and negativity have an unseen balance;</p>
+ <p>An equal connection of harmony between cause and effect.</p>
+ <p class="text-center">Where one exists, so does the other.</p>
 
  <p class="text-uppercase"><strong>Be <em>truthful</em> and <em>honest</em>,
-   <small>even</small> (especially) in your <em>weakest</em> moments you<br>
-   can find an advantage with the truth</strong>.</span></p>
+   <small>even</small> (especially) in your <em>weakest</em> moments you
+   can find an advantage with the truth</strong>.</p>
+ </section>
 </div>
-<!-- Column -->
-<div id="integrityImagination" class="">
+
+<!-- Row #7 - Intergrity -->
+<div class="container-fluid m-0 p-1" id="III">
+
+<section class="row container-fluid justify-content-center">
+
+<blockquote class="blockquote text-center bg-success">
+  <p><em>There is no <strong>good</strong> in this world without the
+    real <strong>will</strong> to do good.</em></p>
+  </blockquote>
+</section>
+<!-- Column 1 - "integrityImagination -->
  <!-- Integrity ~ Section -->
-<section id="Integrity" class=" justify-content-sm-around text-light bg-dark text-center">
+ <div class="row container-fluid justify-content-between">
+
+<section id="Integrity" class="col-lg text-light bg-dark text-center">
 
 <h2 class="text-uppercase">Integrity</h2>
-
-
-
- <p class=""><em>I am inspired to help the world understand that having
-   <strong>integrity</strong> (<span class="text-uppercase">
-     <strong>and</strong> actually using it regularly</span>)<br> can make
+ <p class=""><em>I am inspired to help the world understand some important things;</em></p>
+ <p class=""><em> Like absolutely <strong>having, (recognizing and using</strong>
+    <span class="text-uppercase"><strong>integrity</strong> regularly</span>) can make
      a world of difference for multiple communities,
      not just us as individuals.</em></p>
 
-<p class="text-right">I have learned to find inspiration in every day life. I use my
-  curiosity<br> and creativity in all I do and that gives all the more meaning to all
-  that inspires me. I could not<br> imagine my life without such beautiful inspiration
-  since it is that <strong>so very meaningful to me;</strong> At times it keeps me on my toes too!</p>
-  <blockquote class="blockquote">
-    <p>Imagination is the highest form of research.<br>
+     <p class="text-right">I have adapted and learned to make any & every attempt to
+       find inspiration in everyday life.</p>
+     <p>Curiosity and creativity give a flow to all
+       I do and that gives all the more meaning to everything that inspires me.</p>
+  </section>
+
+  <section class="col-md">
+    <p class="">Especially since not everyone can seem to find that daily inspiration,
+      even for their hardest work;</p>
+    <p class="text-center">They only need to realize that it has
+        been lurking unnoticed within sight, as they conduct business,
+        travel, work, play &amp; love.</p>
+    <p class="text-right">One must enjoy what life and their actions serve
+          them and find the inspiration to better themselves and help others when
+          they can.</p>
+
+</section>
+</div>
+</div>
+<div class="row container-fluid m-1 bg-dark text-center">
+<section class="col-sm">
+
+  <p>I could not imagine my life without such beautiful inspiration
+    since it is <strong>so very meaningful to me;</strong></p>
+  <p><small>At times, it keeps me on my toes too!</small></p>
+  <hr class="bg-white">
+</section>
+<section class="col-md">
+  <p>A simple way I find inspiration is from quotes.</p>
+  <blockquote class="blockquote text-white">
+    <p>Imagination is the highest form of research.
       <cite class="text-uppercase">~ Albert Einstein</cite></p>
     </blockquote>
-<p class="">Especially since not everyone can seem to find that daily inspiration,
-  even for their hardest work;<br> They only need to realize that it has
-  been lurking<br> unnoticed within sight, as they conduct business,
-  travel, work, play &amp; love.<br> One must enjoy what life serves
-  them and find the inspiration to<br> better themselves and help others when
-  they can.<br> A simple way I find inspiration is from quotes.</p>
-</section>
- </div>
-  </div>
-<!-- Row -->
-<div class=" container-fluid bg-dark text-center text-info text-capitalize">
-  <div class="">
+  </section>
+</div>
 
-  <figure class="">
+<!-- Row #8 - Patience -->
+<div class="row border-top border-dark container-fluid bg-white text-dark justify-content-center text-center text-capitalize p-1 m-1" id="IV">
+  <!-- Column 1 -->
+  <section class="col border-right border-dark">
     <blockquote>
-      <p><br>To lose patience is to lose the battle.</p>
+      <p>To lose patience is to lose the battle.</p>
         <cite>~ MAHATMA GANDHI</cite>
     </blockquote>
-  </figure>
-</div>
-<div class="">
-
-  <figure>
-    <blockquote class="">
-      <p><br><em>Two things define you: Your patience when you have<br> nothing and your attitude when you have everything.</em></p>
+</section>
+<!-- Column 2 -->
+<section class="col">
+    <blockquote>
+      <p><em>Two things define you: Your patience when you have nothing, and
+        your attitude when you have everything.</em></p>
       <cite>~ George Bernard Shaw</cite>
     </blockquote>
-  </figure>
+</section>
 </div>
+<!-- Row #9 -->
+<div class="row container-fluid">
+<h2 class="col-sm">Patience &amp; Balance</h2> <br>
+  <section class="col-md bg-white text-dark text-center">
+    <h3 class="">Patience</h3>
+      <p class="text-uppercase">Have patience for time is the only permanent
+        key to happiness and success.</p>
+  </section>
 </div>
-<!-- Row -->
-<div class="container-fluid">
 
-
-
-<!-- Column -->
-
-<div id="balancePatience" class="row">
-
+  <div class="row container-fluid" id="V">
+    <h2>Balance</h2>
+  <!-- Column  id="balancePatience" -->
 <!-- Patience ~ Section -->
-<section class="col-md" id="Patience">
+  <section class="col-md" id="Patience">
 
-<h2>Patience &amp; Balance</h2>
 
-<p class="">Have patience for time is the only permanent
-  key to happiness and success.</p>
-
-<h4 class="text-uppercase text-capitalize text-center uL">
-  <strong>Weigh your choices :</strong></h4>
+<h3 class="text-uppercase text-capitalize text-center">
+  <strong>Weigh your choices :</strong></h3>
   <p class="">Choose what's best for your
-    <strong><span class="uL">needs</span></strong>, <em>not
-    </em> your <em class="uL">wants</em></p>
+    <strong>needs</strong>, <em>not
+    </em> your <em>wants</em>;</p>
 
  <p class="">No matter what each positive action comes back
     around; Especially when you need it most..</p>
 
  <p class="text-center">Same goes for those negative actions;
     Except they come around when least expected; As a surprise no doubt...</p>
-  </section>
-  <!-- Column -->
-  <section id="Balance" class="col-sm text-center align-middle">
 
  <p class="">All remains <strong>good</strong> when one remains
-    in good standing(<strong><em>harmony</em></strong>) with <span class="uL">the
-   <em>balance </em>of the <strong><em>universe</em></strong></span>:</p>
+    in good standing(<strong><em>harmony</em></strong>) with <span class="">the
+   <em>balance </em>of the <strong><em>universe</em></strong></span>.</p>
+   <p class="text-center text-uppercase">In place of a repercussion you
+     might earn or receive a karmic reward for your efforts....</p>
 
- <p class="text-right text-uppercase">In place of a repercussion you
-   might earn or receive a reward</span> for your efforts....</p>
+ </section>
+   <!-- Column -->
+   <section id="Balance" class="col-sm text-center align-middle">
 
-<h4><strong class="text-uppercase uL">Lucky or Not</strong></h4>
+<h4><strong class="text-uppercase">Lucky or Not</strong>:</h4>
  <p class="text-capitalize text-right">
-   We each individually strive to aim for <em>success</em>.
-  Success for our families and ourselves.</p>
+   We each individually strive to aim for <em>success</em>.</p>
+  <p>Success for our families and ourselves.</p>
 
- <p class="text-center">You get what you give and you give for the betterment of everyone.
-   You give what you can when you can. Even when you are deprived of a need
-   the <em class="uL">right</em> time will come for<br> it to be <strong>fulfilled</strong>.</p>
+ <p class="text-center">You get what you give and you give
+   for the betterment of everyone.
+   You give what you can when you can.</p>
+  <p>Even when you are deprived of a need
+   the <em>right</em> time will come for it
+   to be <strong>fulfilled</strong>.</p>
  </section>
 </div>
+</div>
 
 
-<section class="conatiner-fluid">
-<h4>Pages:</h4>
-    <ul class="pagination pagination-sm">
-      <li class="page-item"><a class="page-link" href="#" disabled>Before</a></li>
-      <li class="page-item"><a class="page-link" href="file:///C:\Users\Cheetah\Documents\Atom\HTML_CSS_JS\Blogs\Blog Side\A-M\AboutMeIndex.html" active>1</a></li>
-      <li class="page-item"><a class="page-link" href="file:///C:\Users\Cheetah\Documents\Atom\HTML_CSS_JS\Blogs\Blog Side\A-M\AboutMe2.html">2</a></li>
-      <li class="page-item"><a class="page-link" href="#3">3</a></li>
-      <li class="page-item"><a class="page-link" href="#4">4</a></li>
-      <li class="page-item"><a class="page-link" href="#Next">After</a></li>
-    </ul>
-<h4>Topic Change:</h4>
-    <ul class="pagination pagination-lg">
-      <li class="page-item"><a class="page-link" href="#" disabled>Before</a></li>
-      <li class="page-item"><a class="page-link" href="#" active>1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#3">3</a></li>
-      <li class="page-item"><a class="page-link" href="#4">4</a></li>
-      <li class="page-item"><a class="page-link" href="#Next">Next Topic</a></li>
-    </ul>
-
-</section>
 
 
 </div>
+<!--
+<div class="card">
+  <h2 class=""></h2>
+  <section>
+
+  </section>
+
+</div> -->
 </div>
 <!-- Footer -->
-<footer></footer>
+<footer>
+  <div class="container-fluid justify-content-center bg-dark text-white">
+    <section class="text-center justify-content">
+      <h2>Choose Page or Topic to Read:</h2>
+      <h3>Pages #s</h3>
+      <ul class="pagination pagination-sm">
+        <li class="page-item text-uppercase disabled"><a class="page-link" href="#">Before</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="file:///C:\Users\My PC\Documents\MyWebpage\Stable\A-M\AboutMe2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="file:///C:\Users\My PC\Documents\MyWebpage\Stable\A-M\AboutMe3.html">3</a></li>
+        <li class="page-item active"><a class="page-link" href="file:///C:\Users\My PC\Documents\MyWebpage\Stable\PortfolioPg_ALE.html">Portfolio Page</a></li>
+        <li class="page-item text-uppercase"><a class="page-link" href="file:///C:\Users\My PC\Documents\MyWebpage\Stable\A-M\AboutMe2.html">After</a></li>
+      </ul>
+    </section>
+    <section class="container-fluid pre-scrollable">
+
+      <h3 class="text-center">Topic Change:</h3>
+      <ul class="pagination pagination-sm text-white">
+        <li class="page-item text-uppercase"><a class="page-link" href="#">Home</a>- xI</li>
+        <li class="page-item"><a class="page-link" href="#">Blogs</a>- I</li>
+        <li class="page-item"><a class="page-link" href="#">Quotes</a>- II</li>
+        <li class="page-item"><a class="page-link" href="#">Stories</a>- III</li>
+        <li class="page-item"><a class="page-link" href="#">T&C</a>- IV</li>
+        <li class="page-item"><a class="page-link" href="#">Social</a>- V</li>
+        <li class="page-item"><a class="page-link" href="#">Resources</a>- VI</li>
+        <li class="page-item"><a class="page-link" href="#">Services</a>- VII</li>
+        <li class="page-item active"><a class="page-link" href="#">About Me</a>- VIII</li>
+        <li class="page-item"><a class="page-link" href="#">DN</a>- VIV</li>
+        <li class="page-item text-uppercase"><a class="page-link" title="Quotes" href="Quotes.html">Next Topic</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="row container-fluid bg-success justify-content-between">
+    <h4 class="col-sm">SES</h4>
+
+      <!--<h6 class="col-md">Choose Category: </h6>
+      <select class="col-sm tetxt-center" name="">
+        <option value="">A</option>
+        <option value="">B</option>
+        <option value="">C</option>
+        <option value="">D</option>
+      </select> -->
+
+    <p class="col-sm">&#169;SimplyEfficientServices</p>
+    <p class="col-sm"> ~2018-2020 </p>
+    <p class="col-md bg-white"><a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License, v2.0</a> </p>
+    <p class="col-sm bg-white"><a href="#Main">Top Nav <span class="fas fa-arrow-up"></span></a></p>
+    <p class="col-sm bg-white"><a href="#">Terms and Expectations</a></p>
+  </div>
+</footer>
 </body>
 </html>
