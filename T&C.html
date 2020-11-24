@@ -21,212 +21,77 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <!-- Navigation Start  -->
+  <nav class="near-moon-gradient navbar-dark text-dark sticky-top m-0" id="Main">
+  <a class="navbar-brand teal-text ml-3" href="#">SESS</a>
+  <div class="collapse" id="NavW">
+  <div class="row justify-content-around p-1">
+  <div class="col-7 rare-wind-gradient flex-column justify-content-end align-items-center m-1 mt-0 m-sm-3 m-md-4 p-2">
+    <div class="tab-content text-center" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <p class="">Visit the <a class="text-default bg-dark font-italic p-1" href="index.html">homepage</a> for more info!</p>
+        <div class="dropleft">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-controls="#ViewM" aria-haspopup="true" aria-expanded="false" name="View More"> View More</button>
+          <div class="dropdown-menu text-center" id="ViewM">
+            <a class="dropdown-item" href="DefendNatureHOME.html">Defend Nature ~ Awareness Template Page</a>
+            <a class="dropdown-item" href="#">Stories ~ Coming Soon!!</a>
+            <a class="dropdown-item" href="#">T&C ~ Coming Soon!!</a>
+            <a class="dropdown-item" href="#">Social Discussions ~ Coming Soon!!</a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="v-pills-blogs" role="tabpanel" aria-labelledby="v-pills-blogs-tab">
+        <p class="">Visit <a class="text-default bg-dark font-italic p-1" href="BlogsIndex.html">Blogs</a> ~ Index
+          Page.</p>
+          <p><small>View all blogs here.</small></p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-quotes" role="tabpanel" aria-labelledby="v-pills-quotes-tab">
+          <p class="">Visit <a class="text-default bg-dark font-italic p-1" href="Quotes.html">Quotes</a> Page.</p>
+          <p>See quotes for every reason. Learn about the intelligent people who have shared their wisdom.</p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-resources" role="tabpanel" aria-labelledby="v-pills-resources-tab">
+          <p>Visit the <a class="text-default bg-dark font-italic p-1" href="Resources.html">Resources Page</a>.</p>
+          <p><small>View all resources, citations and other links!</small></p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
+          <p>Visit the <a class="text-default bg-dark font-italic p-1" href="AboutI.html">About</a> page for website info and more about me.</p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-services" role="tabpanel" aria-labelledby="v-pills-services-tab">
+          <p>Visit the <a class="text-default bg-dark font-italic p-1" href="Services.html">Services</a> page for info about my remote and local services. <br>
+            <a href="Services.html#Contact" title="ale.sess2020@gmail.com" target="_blank">Contact Me</a> via email for Service info, as well as for bugs/feedback.
+          </p>
+        </div>
 
-<!-- -  Navigation -->
-<nav class="nav nav-tabs nav-justified justify-content-around bg-dark navbar-dark">
-<h1 class="text-success" title="SimplyEfficientServices">SES</h1>
-<!-- Toggler / Collapse Buttons -->
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" name="button">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<!--
--->
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavtabs">
-   <span class="fa fa-ellipsis-v"></span>
-</button>
-<button type="button" data-toggle="collapse" data-target="#Help" name="button">
-  <span class="far fa-question-circle"></span>
-</button>
-<!-- Button for Row 1 Column 2 - Table of Contents -->
-<button type="button" data-toggle="collapse" data-target="#ToC" name="button">
-  <span class="fas fa-cubes"></span>
-</button>
-<div class="collapse text-light" id="Help">
-  <p>Click <span class="navbar-toggler-icon"></span> to view Nav Tabs; <br>
-  Click <span class="fa fa-ellipsis-v"></span> to expand tab info. <br> Click
-  <span class="fas fa-cubes"></span> to view Table of Contents.<p>
-    <p>Click again to close.</p>
-</div>
-
-<div class="collapse navbar-collapse" id="collapsibleNavbar">
-  <!--   Nav List - Tabs   -->
-<ul class="nav bg-dark m-0 p-2">
-  <!-- - #1  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#Greet">HOME  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #2  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#BlogsIndex">Blogs  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #3  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#Quotes">Quotes  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #4  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#Stories">Stories  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #5  -->
-  <li class="nav-item"><a class="nav-link active" data-toggle="tab" title="See More Info Below! Click ? for help" href="#TC">Topics and Categories  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #6  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#SocialD">Social Discussions  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #7  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#Resources">Resources  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #8  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#Services">Services & Contact Info  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #9  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#AM">About Me  <i class="far fa-arrow-alt-circle-down"></i></a></li>
-  <!-- - #10  -->
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" title="See More Info Below! Click ? for help" href="#DefendNature">Defend Nature  <i class="far fa-arrow-alt-circle-down"></i></a></li>
- </ul>
-</div>
-
- <!--    Navbar links Below   -->
-
- <div class="collapse navbar-collapse" id="collapsibleNavtabs">
-<!-- Nav-Content - Tab Panes  -->
-<div class="tab-content bg-dark text-monospace text-white text-center">
- <!-- - #1  -->
- <div class="tab-pane container fade text-uppercase" id="Greet">
-   <div class="row">
-   <h2 class="col-sm text-uppercase" title="My Homepage">Greetings:</h2>
-   <p class="col-sm">Vist the
-     <a class="text-uppercase" href="Greetings.html" target="_blank">homepage</a>
-   for more!</p>
+      </div>
+    </div>
+  <div class="col-5 flex-column justify-content-start align-items-start bg-default">
+    <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link text-dark active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+        aria-controls="v-pills-home" aria-selected="true">Greetings!</a>
+      <a class="nav-link text-dark" id="v-pills-blogs-tab" data-toggle="pill" href="#v-pills-blogs" role="tab"
+        aria-controls="v-pills-blogs" aria-selected="false">Blogs:</a>
+      <a class="nav-link text-dark" id="v-pills-quotes-tab" data-toggle="pill" href="#v-pills-quotes" role="tab"
+        aria-controls="v-pills-quotes" aria-selected="false">Quotes:</a>
+      <a class="nav-link text-dark" id="v-pills-resources-tab" data-toggle="pill" href="#v-pills-resources" role="tab"
+        aria-controls="v-pills-resources" aria-selected="false">Resources:</a>
+      <a class="nav-link text-dark" id="v-pills-about-tab" data-toggle="pill" href="#v-pills-about" role="tab"
+       aria-controls="v-pills-about" aria-selected="false">About:</a>
+      <a class="nav-link text-dark" id="v-pills-services-tab" data-toggle="pill" href="#v-pills-services" role="tab"
+       aria-controls="v-pills-services" aria-selected="false">Services:</a>
+    </div>
   </div>
- </div>
- <!-- - #2  -->
- <div class="tab-pane container fade" id="BlogsIndex">
-   <div class="row">
-
-   <h2 class="col-sm" title="Blogs page">All Blogs:</h2>
-   <p class="col-sm">Visit
-    <a class="" href="BlogsIndex.html" target="_blank">Blog</a> homepage here;</p>
-   <p class="col-sm"><small>View all blogs here.</small></p>
   </div>
- </div>
- <!-- - #3  -->
- <div class="tab-pane container fade" id="Quotes">
-   <div class="row">
-
-   <h2 title="Quotes page">Quotes:</h2>
-   <p class="col-sm">Visit
-     <a class="" href="Quotes.html" target="_blank">Quotes</a> Page;</p>
-    <p class="col-sm">View quotes for every reason. Learn about
-     the intelligent people who have shared their wisdom.</p>
-   </div>
- </div>
- <!-- - #4  -->
- <div class="tab-pane container fade" id="Stories">
-   <div class="row">
-
-   <h2 class="col-sm" title="Storytime page">Stories:</h2>
-   <p class="col-sm">Visit
-     <a href="Stories.html" target="_blank">Stories</a> Page;</p>
-    <p class="col-sm">Learn about stories, opinions, lessons, &amp; more.</p>
-   </div>
- </div>
- <!-- - #5  -->
- <div class="tab-pane container active" id="TC">
-   <div class="row">
-
-   <h2 class="col-sm" title="Explore Topics page">Topics & Categories:</h2>
-   <p class="col-sm">Visit
-     <a href="T&C.html" target="_blank">Topics and Categories</a> Page;</p>
-    <p class="col-sm">See full list of eveything to read and research;</p>
-   </div>
- </div>
- <!-- - #6  -->
- <div class="tab-pane container fade" id="SocialD">
-   <div class="row">
-
-   <h2 class="col-md" title="Social Discussions page">Social Discussions:</h2>
-   <p class="col-sm">Visit
-       <a href="SocialD.html" target="_blank">Social</a> Page; </p>
-   <p class="col-sm">Discussion Fourms for everyone to share and learn.</p>
-   </div>
-   <p class="row"> View forums & discussions about everything from
-     passionate hobbies, to favorite events, and even
-     sharing experiences with disabilities and more.</p>
- </div>
- <!-- - #7  -->
- <div class="tab-pane container fade" id="Resources">
-   <div class="row">
-
-   <h2 class="col-sm" title="Resources page">Resources:</h2>
-   <p class="col-sm">Visit
-     <a href="Resources.html" target="_blank">Resources</a> Page;</p>
-
-   <p class="col-sm"><small>View all resources, citations and other links.</small></p>
- </div>
- </div>
- <!-- - #8  -->
- <div class="tab-pane container" id="Services">
-   <div class="row">
-
-   <h2 class="col-sm" title="Services and Contact Page">Services & Contact:</h2>
-   <div class="col-sm">
-     <p class="">Visit
-       <a href="Services.html" target="_blank">Services and Contact</a> Page.
-     <!-- -  My Name and Email  -->
-     <small>Contact me via email for feedback and/or service info;</small> </p>
-     <p>Andrea Estrada - andreaes707@gmail.com</p>
-   </div>
-     <div class="col-md">
-   <h3 class="">House Cleaning</h3>
-   <ul class="list-group list-group-horizontal justify-content-center text-dark">
-     <li class="list-group-item">Surface Cleaning</li>
-     <li class="list-group-item">Disinfection</li>
-     <li class="list-group-item">Deep Cleaning</li>
-   </ul>
-     </div>
-   </div>
- </div>
- <!-- - #9  -->
- <div class="tab-pane container fade" id="AM">
-   <div class="row">
-
-   <h2 class="col-sm" title="About me page">About Me:</h2>
-   <p class="col-sm">Learn more about me: my resourcefulness, beliefs and inspirations.</p>
-   <p class="col-sm"><small>View all pages about me and my daily activities</small></p>
-   <div class="col-sm text-center">
-
-     <h3 class="small lead">View Pages </h3>
-     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Visit Page #</a>
-  <div class="nav-item dropdown dropdown-menu">
-     <ul class="dropdown breadcrumb justify-content-center">
-       <li class="breadcrumb-item"><a href="AboutMeIndex.html" target="_blank">1</a></li>
-       <li class="breadcrumb-item"><a href="AboutMe2.html" target="_blank">2</a></li>
-       <li class="breadcrumb-item disabled"><a href="AboutMe3.html" target="_blank">3</a></li>
-       <li class="breadcrumb-item"><a href="PortfolioPg_ALE.html" target="_blank">Portfolio</a></li>
-     </ul>
-   </div>
   </div>
-</div>
-
-</div>
-
-   <!-- - #10  -->
- <div class="tab-pane container fade" id="DefendNature">
-   <div class="row">
-     <h2 title="Defend Nature Homepage">Defend Nature Template Page:</h2>
-
-     <section class="col-md">
-   <p class="">Visit
-     <a class="" href="DefendNatureHOME.html" target="_blank">DefendNature Home</a> Page;</p>
-   <p><small>
-       More templates coming soon!
-     </small></p>
-   </section>
-   <img class="col-sm" src="DF.jpg" alt="DF">
- </div>
- </div>
-</div>
-</div>
-
-<!--
-  Navigation - End -->
-</nav>
-
-
-  <!-- Header -->
-<header>
-  <h1></h1>
+  <!-- Toggle Collapse Button -->
+  <button class="navbar-toggler btn young-passion-gradient align-items-end mr-0" type="button" data-toggle="collapse" data-target="#NavW" aria-controls="#NavW" aria-expanded="false" aria-label="Toggle navigation" name="MainNavingation">
+  <span class="navbar-toggler-icon"></span></button>
+  <!--  Navigation End  -->
+  </nav>
+  <!-- Header  -->
+  <header class="mean-fruit-gradient m-0">
+    <h1 class="text-dark">Welcome</h1>
     <p></p>
-</header>
+  </header>
 
 
 <!-- -->
@@ -315,59 +180,78 @@
 </main>
 
 </div>
-
 <!-- Footer -->
-<footer>
-  <div class="container-fluid justify-content-center bg-dark text-white">
-    <section class="text-center justify-content">
+<div class="mean-fruit-gradient ">
+  <div class="container ml-0 mt-1 p-1">
+    <section class="text-center align-items-end">
       <h2>Choose Page or Topic to Read:</h2>
       <h3 class="text-left">Pages #s</h3>
-      <ul class="pagination pagination-sm">
-        <li class="page-item text-uppercase disabled"><a class="page-link" href="#">Previous</a></li>
+      <nav aria-label="Current Topic Navigation">
+      <ul class="pagination pagination-circle pagination-sm pg-purple p-1 peach-gradient justify-content-center">
+        <li class="page-item disabled text-uppercase"><a class="page-link" title="Previous" href="#">Previous</a></li>
         <li class="page-item active"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="">2</a></li>
-        <li class="page-item"><a class="page-link" href="">3</a></li>
-        <li class="page-item"><a class="page-link" href="">4</a></li>
-        <li class="page-item text-uppercase"><a class="page-link" title="" href="#Next">Next</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">4</a></li>
+        <li class="page-item disabled text-uppercase"><a class="page-link" title="Next" href="#Next">Next</a></li>
       </ul>
+    </nav>
     </section>
+  </div>
+  <div class="container-fluid justify-content align-items-center ml-0 mt-1 mr-0 p-1">
     <section class="container-fluid pre-scrollable">
-
       <h3 class="text-center">Topic Change:</h3>
-      <ul class="pagination pagination-sm text-white">
-        <li class="page-item text-uppercase"><a class="page-link" title="Stories Page" href="Stories.html">Previous Topic</a></li>
-        <li class="page-item text-uppercase"><a class="page-link" href="Greetings.html">Home</a>- xI</li>
-        <li class="page-item"><a class="page-link" href="BlogsIndex.html">Blogs</a>- I</li>
-        <li class="page-item"><a class="page-link" href="Quotes.html">Quotes</a>- II</li>
-        <li class="page-item"><a class="page-link" href="Stories.html">Stories</a>- III</li>
-        <li class="page-item active"><a class="page-link" href="#Intro">T&C</a>- IV</li>
-        <li class="page-item"><a class="page-link" href="SocialD.html">Social</a>- V</li>
-        <li class="page-item"><a class="page-link" href="Resources.html">Resources</a>- VI</li>
-        <li class="page-item"><a class="page-link" href="Services.html">Services</a>- VII</li>
-        <li class="page-item"><a class="page-link" href="AboutMeIndex.html">About Me</a>- VIII</li>
-        <li class="page-item"><a class="page-link" href="DefendNatureHOME.html">DN</a>- VIV</li>
-        <li class="page-item text-uppercase"><a class="page-link" title="Social Discussions" href="SocialD.html">Next Topic</a></li>
+      <nav aria-label="Change Topic Navigation">
+      <ul class="pagination pg-dark">
+        <li class="page-item disabled text-uppercase"><a class="page-link" title="___ Page" href="__.html">Previous Topic</a></li>
+        <li class="page-item text-uppercase  active"><a class="page-link" href="index.html">Home</a></li>
+        <li class="page-item"><a class="page-link" href="BlogsIndex.html">Blogs</a></li>
+        <li class="page-item"><a class="page-link" href="Quotes.html">Quotes</a></li>
+        <li class="page-item disabled" title="Coming Soon!!"><a class="page-link" href="Stories.html">Stories</a></li>
+        <li class="page-item disabled" title="Coming Soon!!"><a class="page-link" href="T&C.html">T&C</a></li>
+        <li class="page-item disabled" title="Coming Soon!!"><a class="page-link" href="SocialD.html">Social</a></li>
+        <li class="page-item"><a class="page-link" href="Resources.html">Resources</a></li>
+        <li class="page-item"><a class="page-link" href="Services.html">Services</a></li>
+        <li class="page-item"><a class="page-link" href="AboutMeIndex.html">About Me</a></li>
+        <li class="page-item"><a class="page-link" href="DefendNatureHOME.html">DN</a></li>
+        <li class="page-item text-uppercase"><a class="page-link" title="___ Page" href="__.html">Next Topic</a></li>
       </ul>
+    </nav>
     </section>
   </div>
-  <div class="row container-fluid bg-success justify-content-between">
-    <h4 class="col-sm">SES</h4>
+</div>
+<div class="">
 
-      <!--<h6 class="col-md">Choose Category: </h6>
-      <select class="col-sm tetxt-center" name="">
-        <option value="">A</option>
-        <option value="">B</option>
-        <option value="">C</option>
-        <option value="">D</option>
-      </select> -->
+  <!--<h6 class="col-md">Choose Category: </h6>
+  <select class="col-sm tetxt-center" name="">
+  <option value="">A</option>
+  <option value="">B</option>
+  <option value="">C</option>
+  <option value="">D</option>
+</select> -->
+</div>
+<div class="w-100 clearfix mdb-color darken-3 p-2">
+</div>
+<div class="container-fluid morpheus-den-gradient text-white">
 
-    <p class="col-sm">&#169;SimplyEfficientServices</p>
-    <p class="col-sm"> ~2018-2020 </p>
-    <p class="col-md bg-white"><a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License, v2.0</a> </p>
-    <p class="col-sm bg-white"><a href="#Main">Top Nav <span class="fas fa-arrow-up"></span></a></p>
-    <p class="col-sm bg-white"><a href="#">Terms and Expectations</a></p>
+
+<footer class="container mr-0 ml-1 p-1 text-right">
+  <div class="row">
+  <h4 class="col-sm">SESS<small> ~2018-2020</small></h4>
+    <p class="col-sm footer-copyright">&#169;SimplyEfficient - Services_and_Software</p>
+  <h5 class="m-3"> <a class="purple-text" href="#">Contact</a></h5>
   </div>
-</footer>
+  <div class="w-100 clearfix purple-gradient p-1"></div>
+  <div class="row">
+    <p class="col-sm"></p>
+
+    <p class="col-md text-center"><a class="text-dark" href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License, v2.0</a> </p>
+    <p class="col-sm"><a class="text-dark" href="#Main">Top Nav <span class="fas fa-arrow-up p-1"></span></a></p>
+  </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="col-sm">Sitemap</p>
+  </footer>
+</div>
 
 </body>
 </html>
